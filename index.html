@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 - Avaliação Unisociesc</title>
+
+    <!--Importação do estilo-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <!--Informações sobre mim-->
+        <section>
+            <h1>A1 - Avaliação Unisociesc</h1>
+            <p>
+                Nome: João Sereia</br>
+                Curso: Ciência da Computação</br>
+                RA: 122112337
+            </p>
+        </section>
+    </nav>
+
+    <main>
+        <!--Imagem do grafo-->
+        <section>
+            <img src="./assets/grafo.jpg" alt="grafo com algumas cidades de santa catarina">
+        </section>
+
+        <!---->
+        <section>
+            <h4>Caminho mais rápido até Florianópolis - Santa Catarina</h4>
+
+            <p>Escolha a cidade de partida:</p>
+            <!--ComboBox-->
+            <select name="cities" id="cities">
+                <option value="joinville">Joinville</option>
+                <option value="itajai">Itajaí</option>
+                <option value="canoinhas">Canoinhas</option>
+                <option value="riodosul">Rio do sul</option>
+                <option value="videira">Videira</option>
+                <option value="camposnovos">Campos Novos</option>
+                <option value="lages">São Joaquim</option>
+                <option value="criciuma">Criciúma</option>
+                <option value="Tubarão">Tubarão</option>
+            </select>
+            <!--Botão encontrar caminho-->
+            <button>Encontrar caminho</button>
+
+            <!--Exibe o caminho-->
+            <div id="result"></div>
+        </section>
+    </main>
+
+    <!--Importação do script principal-->
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
